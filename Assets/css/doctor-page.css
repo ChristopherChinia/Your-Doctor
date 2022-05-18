@@ -9,6 +9,7 @@ body{
 /* Navigation section */
 .Navigation{
     justify-content: center;
+    box-shadow: 5px 0px 25px gray;
 
 }
 
@@ -26,6 +27,7 @@ body{
     border: 1px solid grey;
     padding: 30px;
     border-radius: 50px;
+    box-shadow: 5px 0px 15px grey;
 }
 
 .Navigation>.head>.user>.name{
@@ -34,6 +36,10 @@ body{
 
 .Navigation>.head>.user>span{
     font-size: 24px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 5px;
+    box-shadow: 5px 0px 10px grey;
 }
 
 .Navigation>.head>#header{
@@ -96,28 +102,31 @@ cursor: pointer;
     margin-left: 40px;
     border-radius: 20px;
     cursor: pointer;
+
 }
 
 .body>.doctors>.images{
-    /* border: 2px solid green; */
     margin: 20px 20px 20px 20px;
 }
 
 .body>.doctors>.images>.doc{
 justify-content: space-between;
-align-items: center;
-padding: 20px;
-width: 100%;
-height: 200px;
-/* border: 1px solid brown; */
+ padding: 20px; 
+min-width: 100%;
+display: flex;
+margin-top: 0px;
+margin-bottom: ;
 }
 
 .doctors>.images>.doc>.one{
     border: 1px solid grey;
     text-align: center;
     border-radius: 20px;
+    margin-right: 50px;
+    margin-top: 0px;
 
 }
+
 
 .doctors>.images>.doc>.one>#one{
     padding: 10px 50px ;
