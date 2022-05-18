@@ -5,41 +5,52 @@
     padding: 0;
 }
 
+body{
+    /* background: url(../images/telescope.jpeg); */
+    /* background-size: cover; */
+}
+
 .containerOne{
-    background-color: #E1F4FF;
-    width: 100%;
-    height: 100%;
-}
-
-.userPage{
-    margin-left: 70px;
-    margin-top: 50px;
-    background-color: white;
-}
-
-.userPage{
-    background: url(../images/telescope.jpeg);
-    background-position: center;
-    background-size: cover;
-    width: 800px;
-    height: 500px;
-}
-.userPage .userProfile .fa-user{
-    padding-top: 50px;
     margin-left: 50px;
+    padding: 10px;
+}
+    
+.containerOne>.userProfile>i{
+    margin-left: 50px;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid grey;
+    box-shadow: 2px grey;
 }
 
-.userPage .userProfile .title{
-    margin-left: 500px;
+.containerOne>.userProfile>i{
+    margin-top: 50px;
+}
+.containerOne .userProfile .title{
+    text-align: center;
     margin-top: -50px;
+    color: aqua;
 }
 
+.formInput{
+    margin-top: 15px;
+}
+
+.logOut{
+    margin-bottom: 30px;
+    padding: 5px;
+    margin-left: 20px;
+}
 .doctors{
     border: 1px solid grey;
-    margin-left: 120px;
+    border-radius: 5px;
+    margin-left: 600px;
     padding: 5px;
-    height: 400px;
+    height: 300px;
+    width: 800px;
     overflow: scroll;
+    margin-top: -150px;
+    cursor: pointer;
 }
 
 .doctors .titleHead{
