@@ -2,6 +2,7 @@ body{
     background-image: url(/Assets/images/6.jpeg);
     background-repeat: no-repeat;
     width: 100%;
+    height: 100%;
 
 }
 
@@ -39,7 +40,7 @@ body{
     margin-left: 35%;
     font-weight: bold;
     font-size: 30px;
-    color: cyan;
+    color: hsl(180, 100%, 43%);
     margin-top: 0px;
     text-decoration: underline;
 }
@@ -83,9 +84,45 @@ cursor: pointer;
 margin: 20px 0px 30px 20px;
 font-size: 20px;
 font-weight: 600;
+height: 70%;
 padding: 20%;
 border-radius: 20px;
 border: 1px solid grey;
 cursor: pointer;
+}
+
+.body>.doctors{
+    border: 1px solid red;
+    margin-left: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.body>.doctors>.images{
+    /* border: 2px solid green; */
+    margin: 20px 20px 20px 20px;
+}
+
+.body>.doctors>.images>.doc{
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+width: 100%;
+height: 200px;
+/* border: 1px solid brown; */
+}
+
+.doctors>.images>.doc>.one{
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.doctors>.images>.doc>.one>#one{
+    padding: 10px 50px ;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px grey;
+
 }
 
