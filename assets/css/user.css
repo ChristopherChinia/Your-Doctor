@@ -77,13 +77,13 @@
 
 .doctors{
     border: 1px solid grey;
-    border-radius: 5px;
-    margin-left: 600px;
+    border-radius: 10px;
+    margin-left: 400px;
     padding: 5px;
     height: 300px;
     width: 800px;
     overflow: scroll;
-    margin-top: -150px;
+    margin-top: -450px;
     cursor: pointer;
 }
 
