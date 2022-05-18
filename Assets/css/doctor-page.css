@@ -58,6 +58,7 @@ body{
     display: flex;
 }
 
+/* Buttons section */
 .body>.buttons{
     border: 1px solid blue;
     display: flex;
@@ -97,19 +98,24 @@ border: 1px solid grey;
 cursor: pointer;
 }
 
+/* Doctor division container */
+
 .body>.doctors{
     border: 1px solid red;
     margin-left: 40px;
     border-radius: 20px;
     cursor: pointer;
-    height: 500px;
-    overflow: scroll;
+    display: 
+    
     box-shadow: 5px 5px 5px grey;
 
 }
 
+/* Images under */
 .body>.doctors>.images{
     margin: 20px 20px 20px 20px;
+    height: 400px;
+    overflow: scroll;
 }
 
 .body>.doctors>.images>.doc{
@@ -159,4 +165,9 @@ margin-top: 0px;
     border: 1px solid grey;
     box-shadow: 5px 5px 5px grey;
 
+}
+
+.body>.doctors>.special{
+display: flex;    
+    
 }
