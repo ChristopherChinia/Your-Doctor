@@ -33,3 +33,18 @@
     margin-left: 500px;
     margin-top: -50px;
 }
+
+.doctors .doc-box{
+    display: flex;
+    gap: 2rem;
+}
+
+.doctors .doc-box .box{
+    text-align: center;
+    background: #fff;
+    border-radius: .5rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    border: 1px solid grey;
+}
