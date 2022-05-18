@@ -34,12 +34,40 @@
     margin-top: -50px;
 }
 
+.doctors{
+    border: 1px solid grey;
+    margin-left: 120px;
+    padding: 5px;
+    height: 400px;
+    overflow: scroll;
+}
+
+.doctors .titleHead{
+    text-align: center;
+}
+
 .doctors .doc-box{
     display: flex;
     gap: 2rem;
+    padding: 5px;
 }
 
 .doctors .doc-box .box{
+    text-align: center;
+    background: #fff;
+    border-radius: .5rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    border: 1px solid grey;
+}
+
+.doctors .doc-images{
+    display: flex;
+    gap: 2rem;
+    padding: 5px;
+}
+.doctors .doc-images .box{
     text-align: center;
     background: #fff;
     border-radius: .5rem;
