@@ -1,0 +1,59 @@
+body{
+    background-image: url(/Assets/images/6.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+/* Navigation section */
+.Navigation{
+    justify-content: center;
+
+}
+
+.Navigation>.head{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.Navigation>.head>.user{
+    margin: 20px;
+}
+
+.Navigation>.head>.user>i{
+    border: 1px solid grey;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.Navigation>.head>.user>.name{
+    font-size: 24px;
+}
+
+.Navigation>.head>.user>span{
+    font-size: 24px;
+}
+
+.Navigation>.head>#header{
+    margin-left: 35%;
+    font-weight: bold;
+    font-size: 30px;
+    color: cyan;
+    margin-top: 0px;
+    text-decoration: underline;
+}
+
+/* Body section */
+.body{
+    opacity: 1;
+    margin-left: 15px;
+}
+
+.body>.buttons{
+    border: 1px solid blue;
+}
+
+.body>.doctors{
+    border: 1px solid green;
+}
