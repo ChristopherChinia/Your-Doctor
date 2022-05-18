@@ -74,7 +74,14 @@ border: 1px solid grey;
 font-size: 20px;
 font-weight: 600;
 cursor: pointer;
+background-color: grey;
+color: white;
 
+}
+
+.body>.buttons>.cons:hover{
+    background-color: aqua;
+    color: black;
 }
 
 .body>.buttons>.due{
@@ -85,6 +92,12 @@ cursor: pointer;
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
+    background-color: grey;
+    color: white;
+}
+.body>.buttons>.due:hover{
+    background-color: aqua;
+    color: black;
 }
 
 .body>.buttons>.notes{
@@ -96,6 +109,13 @@ padding: 20%;
 border-radius: 20px;
 border: 1px solid grey;
 cursor: pointer;
+background-color: grey;
+color: white;
+}
+
+.body>.buttons>.notes:hover{
+    background-color: aqua;
+    color: black; 
 }
 
 /* Doctor division container */
