@@ -2,15 +2,21 @@
     margin: 0;
     border: 0;
     padding: 0;
-    font-family: 'Verdana',sans-serif;
 }/* font-family: 'Nunito', sans-serif; */
 body{
     background: url(assets/images/UMH_L_DOCTORSDAY_Kenneth_Jamerson_Taylor_019_0.jpg);
     background-size: cover;
 }
+/* doc profiles */
 .doc-profiles {
     display: flex;
+    margin-left: 40%;
+    overflow: scroll;
 }
+
+
+
+/* doc profiles */
 
 /* footer section */     /*media query
     dispaly: flex
@@ -72,11 +78,6 @@ footer .s-media a i:hover {
     font-size: xx-large;
 
 }
-
-
-
-
-
 /* footer section ends */
 
 /* navigation bar */
@@ -85,15 +86,16 @@ nav {
     flex-direction: row;
     justify-content: end;
     padding-right: 10%;
-    /* background: rgba(238, 214, 94, 0.7);/*check on footer background*/
-} */
+    padding-top: 5%;
+    background: red;
+    margin-left: 40%;
+} 
 nav a {
     text-decoration: none;
-    padding: 20px;
     text-transform: uppercase;
+    padding: 10px;
     font-weight: 700;
-    color: hsl(0, 0%, 35%);
-    font-size: larger;
+    color: hsl(180, 100%, 30%);
 }
 /* navigation ends */
 
