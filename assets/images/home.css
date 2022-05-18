@@ -9,7 +9,7 @@ section {
     border: 2px solid red;
 }
 nav{
-    background: red;
+    background: lightgrey;
 
 }
 .doc-profiles {
@@ -18,24 +18,27 @@ nav{
 footer{
     background: purple;
 }
-.s-media, .contacts{
-    background: navy;
-}
+
 /* Only for styling purposes */
 
 /* secttion */
 section{
     background: url(assets/images/pexels-ivan-samkov-4989163.jpg);
 }
-/* footer section */
-footer{
+/* footer section */  
+footer{    /*media query
+    dispaly: flex
+    flexdirection;column
+    background;gray
+    padding;8px*/
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 10px;
 }
 footer .s-media, .contacts h4 {
     color: white;
+    font-size: larger; /*large*/
     text-transform: uppercase;
     font-weight: 700;
 
@@ -43,15 +46,28 @@ footer .s-media, .contacts h4 {
 footer .s-media, .contacts {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px; /*10px*/
+    background: rgba(255, 255, 255,0.1);
     
 }
 footer .contacts a{
     text-decoration: none;
-    color: hsl(0, 0%, 75%);
+    font-weight: 300;
+    color: hsl(180, 100%, 50%);
+}
+footer .contacts a:hover {
+    text-decoration: underline;
+}
+footer .contacts a i{
+    font-size: larger;
+}
+footer .contacts a i:hover {
+    font-size: xx-large;
+
 }
 footer .s-media h4{
     color: white;
+    font-size: larger;
     text-transform: uppercase;
     font-weight: 700;
     
@@ -59,7 +75,15 @@ footer .s-media h4{
 footer .s-media a{
     text-decoration: none;
     text-decoration: none;
-    color: hsl(0, 0%, 75%);
+    color: hsl(180, 100%, 50%);
+    
+}
+footer .s-media a i{
+    font-size: larger;
+}
+footer .s-media a i:hover {
+    font-size: xx-large;
+
 }
 
 
@@ -67,3 +91,6 @@ footer .s-media a{
 
 
 /* footer section ends */
+nav {
+    dis
+}
