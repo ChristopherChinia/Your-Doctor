@@ -39,7 +39,14 @@ body{
 .logOut{
     margin-bottom: 30px;
     padding: 5px;
-    margin-left: 20px;
+    margin-left: 35px;
+    height: 25px;
+    width: 80px;
+    background-color: #E1F4FF;
+}
+
+.logOut:hover{
+    color: blue;
 }
 .doctors{
     border: 1px solid grey;
