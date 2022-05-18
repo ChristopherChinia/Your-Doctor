@@ -7,3 +7,19 @@
   justify-content: center;
   align-items: center;
 }
+
+.avatar{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 90%;
+  top: 0.5em;
+}
+
+input[type=text]{
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0, 0.6);
+  padding: 10px 20px;
+  margin: 5px 0;
+  outline: none;
+}
