@@ -3,50 +3,29 @@
     border: 0;
     padding: 0;
     font-family: 'Verdana',sans-serif;
-}
-/* font-family: 'Nunito', sans-serif; */
-
-
-.mainpage {
-    background-image: url(../images/pexels-ivan-samkov-4989163.jpg);
+}/* font-family: 'Nunito', sans-serif; */
+body{
+    background: url(assets/images/UMH_L_DOCTORSDAY_Kenneth_Jamerson_Taylor_019_0.jpg);
     background-size: cover;
 }
-.body {
-    border: white;
-}
-nav{
-    border:yellow;
-
-}
 .doc-profiles {
-   background: gray;
-}
-footer{
-    background: purple;
+    display: flex;
 }
 
-/* Only for styling purposes */
-
-/* secttion */
-
-/* footer section */  
-footer{    /*media query
+/* footer section */     /*media query
     dispaly: flex
     flexdirection;column
     background;gray
     padding;8px*/
+footer{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-}
+    justify-content: space-between;
+    background-color: blue;
+    padding: 20px;
+}    
 footer .s-media, .contacts h4 {
     color: white;
-    font-size: larger; /*large*/
+    font-size: large; /*large*/
     text-transform: uppercase;
     font-weight: 700;
 
@@ -75,7 +54,7 @@ footer .contacts a i:hover {
 }
 footer .s-media h4{
     color: white;
-    font-size: larger;
+    font-size: large;
     text-transform: uppercase;
     font-weight: 700;
     
@@ -93,11 +72,6 @@ footer .s-media a i:hover {
     font-size: xx-large;
 
 }
-.body {
-    border: 2px solid red;
-    padding-left: 10%;
-    margin-left: 40%;
-}
 
 
 
@@ -111,8 +85,8 @@ nav {
     flex-direction: row;
     justify-content: end;
     padding-right: 10%;
-    background: rgba(238, 214, 94, 0.7);/*check on footer background*/
-}
+    /* background: rgba(238, 214, 94, 0.7);/*check on footer background*/
+} */
 nav a {
     text-decoration: none;
     padding: 20px;
@@ -124,41 +98,7 @@ nav a {
 /* navigation ends */
 
 /* doc profiles */
-.doc-profiles {
-    display: flex;
-}
-.doc-profiles .slide{
-    /* border-radius: .7rem;
-    border: 2px solid white; */
-    /* width: fit-content; */
-    /* height: 250px; */
-    padding: 5px;
-    /* object-fit: cover; */
-    background: rgba(255, 255, 255,0.1);
 
-}
-.doc-profiles .slide img {
-    height: 150px;
-    width: 200px;
-}
-.doc-profiles .slide button {
-    background: hsl(180, 100%, 50%);
-    padding: 8px;
-    border-radius: .7rem;
-    margin-left: 60px;
-    cursor: pointer;
-}
-.doc-profiles .slide button a {
-    text-decoration: none;
-    font-weight: bold;
-    padding-top: 7px;
-    margin-top: 7px;
-    color: #5a5a5a;
-}
-.doc-profiles .slide h2,h4{
-    text-align: center;
-    font-size: medium;
-}
 
 
 
