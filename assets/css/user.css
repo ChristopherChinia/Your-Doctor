@@ -121,3 +121,12 @@
     padding: 2rem;
     border: 1px solid grey;
 }
+
+.equipmentContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 5px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
