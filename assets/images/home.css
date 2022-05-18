@@ -46,16 +46,20 @@ footer .s-media, .contacts {
     padding: 20px;
     
 }
-footer .s-media, .contacts a{
+footer .contacts a{
     text-decoration: none;
     color: hsl(0, 0%, 75%);
 }
-/* footer .s-media {
-    padding: 5px;
+footer .s-media h4{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
     
-} */
+}
 footer .s-media a{
     text-decoration: none;
+    text-decoration: none;
+    color: hsl(0, 0%, 75%);
 }
 
 
