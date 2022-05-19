@@ -148,6 +148,7 @@ footer{
     justify-content: space-between;
     background-color: blue;
     padding: 20px;
+    
 }    
 footer .s-media, .contacts h4 {
     color: white;
@@ -167,6 +168,10 @@ footer .contacts a{
     text-decoration: none;
     font-weight: 300;
     color: hsl(180, 100%, 50%);
+
+}
+footer .contacts a img{
+    max-width: 80px;
 }
 footer .contacts a:hover {
     text-decoration: underline;
