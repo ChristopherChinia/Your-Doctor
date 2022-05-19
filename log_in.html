@@ -5,33 +5,39 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="log_in.css">
+  <script src="script.js"></script>
   <title>Log-in</title>
 </head>
 <body>
-
   <div class="container">
+    <div class="log-in-page">
     <img src="./assets/images/login-avator.jpg" class="avatar" alt="avatar">
-    <form action="">
+
+    <form id= "log-in-form">
+      <label for="Username">Username:</label>
       
-      <p>Username</p>
-      <input type="text" id="uname" placeholder="Username">
+      <input type="text" id="uname" placeholder="Username"> <br>
+      
+      <label for="Password">Password:</label>
+      <input type="text"  id="password" name="Password" placeholder="Password"> <br>
 
-      <p>Email</p>
-      <input type="text" id="email" placeholder="Email">
+      <button class="loginbtn" onclick="login()" >Log in</button>
 
-      <p>Password</p>
-      <input type="text"  name="" placeholder="Password"> <br>
-
-      <button class="loginbtn" onclick="submit">Log in</button>
       <a href="#">Forgot password?</a> <br>
 
+      <a href="" onclick="register()">New member? Register</a>
+      
       <button id="submit" class="registerbtn" >REGISTER</button>
-    </form>
-    
 
+    </form>
+
+
+  
+  </div>
   </div>
 
-
+ 
+   <script defer src="script.js"></script>
   
 </body>
 </html>
