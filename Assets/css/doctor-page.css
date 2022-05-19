@@ -170,15 +170,29 @@ margin-top: 0px;
     text-decoration: underline;
 }
 
+.doctors>.images>.doc>.one>.details>a>span{
+    border: 1px solid cyan;
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+    /* background-color: grey; */
+}
+
+.doctors>.images>.doc>.one>.details>a>span:hover{
+    background-color: cyan;
+}
+
 .doctors>.images>.doc>.one>.icons{
     padding: 10px;
     align-items: center;
     justify-content: space-between;
+    /* border: 1px solid red */
 }
 
 .doctors>.images>.doc>.one>.icons>i{
     margin: 0px 15px;
     border-radius: 5px;
+
 }
 /* div patient */
 .body>.doctors>.images>.patient{
@@ -206,6 +220,37 @@ box-shadow: 5px 5px 5px grey;
 
 }
 
+.doctors>.images>.patient>.one>h3{
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.doctors>.images>.patient>.one>.details>a>span{
+    border: 1px solid cyan;
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+    /* background-color: grey; */
+}
+
+.doctors>.images>.patient>.one>.details>a>span:hover{
+    background-color: cyan;
+}
+
+.doctors>.images>.patient>.one>.icons{
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red */
+}
+
+.doctors>.images>.patient>.one>.icons>i{
+    margin: 0px 15px;
+    border-radius: 5px;
+
+}
+
 
 /* special div */
 .body>.doctors>.special{
@@ -225,8 +270,33 @@ box-shadow: 5px 5px 5px grey;
     margin-top: 0px;
 }
 
-.doctors>.special>.one#one{
+.doctors>.special>.one>#one{
     padding: 10px 50px ;
     border: 1px solid grey;
     box-shadow: 5px 5px 5px grey;
+}
+
+.doctors>.special>.one>.call{
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+
+}
+
+.doctors>.special>.one>.call:hover{
+    background-color: lightgreen;
+    color: green;
+}
+
+.doctors>.special>.one>.icons{
+    border: 1px solid yellow;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.doctors>.special>.one>.icons>i{
+    padding: 20px;
 }
