@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}/* font-family: 'Nunito', sans-serif; */
+body{
+    background-size: cover;
+}
+/* about */
+.about{
+    background: rgba(0,0, 0, .3);
+    color: black;
+    font-size: larger;
+    font-weight: 500;
+    height: 300px;
+}
+.about p{
+    margin-left: 40%;
+    margin-right: 15%;
+}
+/* about */
+/* doc profiles */
+.doc-profiles {
+    display: flex;
+    justify-content: flex-end;
+    background: rgba(0,0, 0, .3);
+    overflow: hidden;
+    
+}
+.doc-profiles .slide {
+    border-radius: .7rem;
+    text-align: center;
+    background-color: hsl(0, 0%, 75%);
+    border: 2px solid white;
+}
+.doc-profiles .slide img {
+    height: 150;
+    
+}
+.doc-profiles .slide button {
+    background: cyan;
+    padding: 5px;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.doc-profiles .slide button:hover {
+    background: white;
+
+}
+.doc-profiles .slide button a {
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(0, 0%, 25%);
+}
+/* doc profiles */
+
+
+
+/* partners section */
+.partners{
+    background: rgba(0,0, 0, .3);
+}
+
+.partners .p-heading {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5% ;
+    font-weight: 700;
+}
+.partners .p-heading span {
+    font-size: xx-large;
+    background: cyan;
+    border-radius: .5rem;
+    padding: .7rem 1rem;
+}
+.partners .p-heading .empty {
+    background: none;
+}
+.partners .p-partners {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 150;
+}
+.partners .p-partners img {
+    border-radius: 50%;
+    height: 150;
+    width: 150;
+}
+/* partners section */
+/* services section */
+.services{
+    background: rgba(0,0, 0, .3);
+}
+.services .s-heading {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5% ;
+    font-weight: 700;
+}
+.services .s-heading span {
+    font-size: xx-large;
+    background: cyan;
+    border-radius: .5rem;
+    padding: .7rem 1rem;
+}
+.services .serv {
+    display: flex;
+    flex-wrap: wrap;
+}
+.services .serv .offered{
+    overflow: hidden;
+    box-shadow: 3px 3px hsl(0, 0%, 25%);
+    border: .3rem solid hsl(180, 100%, 30%);
+    border-radius: .5rem;
+    flex: 1 1 10rem;
+    height: 20rem;
+    position: relative;
+}
+.services .serv .offered img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.services .serv .offered .servoff {
+    position: absolute;
+    top: -100;
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0, 0, .7);
+    padding: 5px;
+    padding-top: 5rem;
+}
+.services .serv .offered:hover .servoff{
+    top: 0;
+}
+.services .serv .offered:hover .servoff h3{
+    font-size: larger;
+    color: hsl(180, 100%, 50%);
+}
+.services .serv .offered:hover .servoff p{
+    font-size: larger;
+    color: white;
+    padding: 4px;
+}
+
+
+
+
+
+/* services section */
+
+/* footer section */     /*media query
+    dispaly: flex
+    flexdirection;column
+    background;gray
+    padding;8px*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(0,0, 0, .7);
+    
+}    
+footer .s-media, .contacts h4 {
+    color: white;
+    font-size: large; /*large*/
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+footer .s-media, .contacts {
+    display: flex;
+    flex-direction: column;
+    padding: 20px; /*10px*/
+    background: rgba(255, 255, 255,0.1);
+    
+}
+footer .contacts a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+    color: hsl(180, 100%, 50%);
+
+}
+footer .contacts a img{
+    max-width: 30px;
+    border-radius: 50%;
+}
+footer .s-media a img{
+    max-width: 30px;
+    border-radius: 50%;
+}
+footer .contacts a:hover {
+    text-decoration: underline;
+}
+footer .contacts a img:hover{
+    max-width: 60px;
+}
+footer .contacts a i:hover {
+    font-size: xx-large;
+
+}
+footer .s-media h4{
+    color: white;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+footer .s-media a{
+    text-decoration: none;
+    text-decoration: none;
+    color: hsl(180, 100%, 50%);
+    
+}
+footer .s-media a i{
+    font-size: larger;
+}
+footer .s-media a img:hover {
+    max-width: 60px;
+
+}
+/* footer section ends */
+
+/* navigation bar */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 10%;
+    padding-top: 5%;
+    margin-left: 40%;
+} 
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: 700;
+    color: hsl(180, 100%, 30%);
+}
+nav a:hover {
+    color: black;
+}
+/* navigation ends */
+
+
+
+
+
+
+
+
+
+
