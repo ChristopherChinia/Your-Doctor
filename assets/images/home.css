@@ -2,25 +2,30 @@
     margin: 0;
     border: 0;
     padding: 0;
+    font-family: 'Comfortaa', cursive;
 }/* font-family: 'Nunito', sans-serif; */
 body{
-    background: burlywood;
     background-size: cover;
 }
 /* about */
 .about{
-    margin-left: 40%;
-    background: rgba(0,0, 0, .5);
-    color: white;
+    background: rgba(0,0, 0, .3);
+    color: black;
     font-size: larger;
+    font-weight: 500;
+    height: 300px;
+}
+.about p{
+    margin-left: 40%;
     margin-right: 15%;
 }
 /* about */
 /* doc profiles */
 .doc-profiles {
     display: flex;
-    margin-left: 40%;
-    overflow: scroll;
+    justify-content: flex-end;
+    background: rgba(0,0, 0, .3);
+    overflow: hidden;
     
 }
 .doc-profiles .slide {
@@ -53,11 +58,15 @@ body{
 
 
 /* partners section */
+.partners{
+    background: rgba(0,0, 0, .3);
+}
 
 .partners .p-heading {
     text-align: center;
     text-transform: uppercase;
     padding: 5% ;
+    font-weight: 700;
 }
 .partners .p-heading span {
     font-size: xx-large;
@@ -81,10 +90,14 @@ body{
 }
 /* partners section */
 /* services section */
+.services{
+    background: rgba(0,0, 0, .3);
+}
 .services .s-heading {
     text-align: center;
     text-transform: uppercase;
     padding: 5% ;
+    font-weight: 700;
 }
 .services .s-heading span {
     font-size: xx-large;
@@ -146,8 +159,8 @@ body{
 footer{
     display: flex;
     justify-content: space-between;
-    background-color: blue;
     padding: 20px;
+    background: rgba(0,0, 0, .7);
     
 }    
 footer .s-media, .contacts h4 {
@@ -166,23 +179,24 @@ footer .s-media, .contacts {
 }
 footer .contacts a{
     text-decoration: none;
-    font-weight: 300;
+    font-size: larger;
+    font-weight: 600;
     color: hsl(180, 100%, 50%);
 
 }
 footer .contacts a img{
-    max-width: 80px;
+    max-width: 30px;
     border-radius: 50%;
 }
 footer .s-media a img{
-    max-width: 80px;
+    max-width: 30px;
     border-radius: 50%;
 }
 footer .contacts a:hover {
     text-decoration: underline;
 }
-footer .contacts a i{
-    font-size: larger;
+footer .contacts a img:hover{
+    max-width: 60px;
 }
 footer .contacts a i:hover {
     font-size: xx-large;
@@ -204,8 +218,8 @@ footer .s-media a{
 footer .s-media a i{
     font-size: larger;
 }
-footer .s-media a i:hover {
-    font-size: xx-large;
+footer .s-media a img:hover {
+    max-width: 60px;
 
 }
 /* footer section ends */
@@ -217,7 +231,6 @@ nav {
     justify-content: end;
     padding-right: 10%;
     padding-top: 5%;
-    background: red;
     margin-left: 40%;
 } 
 nav a {
@@ -226,6 +239,9 @@ nav a {
     padding: 10px;
     font-weight: 700;
     color: hsl(180, 100%, 30%);
+}
+nav a:hover {
+    color: black;
 }
 /* navigation ends */
 
