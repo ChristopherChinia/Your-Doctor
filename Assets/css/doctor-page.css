@@ -282,7 +282,7 @@ box-shadow: 5px 5px 5px grey;
     border: 1px solid grey;
     text-align: center;
     border-radius: 20px;
-    padding: 0px;
+    padding: 15px;
     margin: 20px;
     box-shadow: 5px 5px 5px grey;
     cursor: pointer;
@@ -300,4 +300,9 @@ box-shadow: 5px 5px 5px grey;
 
 .doctors>.special>.one>.icons>i{
     padding: 20px;
+}
+
+.doctors>.special>.one>p>.radio{
+    text-decoration: none;
+    
 }
