@@ -172,6 +172,11 @@ footer .contacts a{
 }
 footer .contacts a img{
     max-width: 80px;
+    border-radius: 50%;
+}
+footer .s-media a img{
+    max-width: 80px;
+    border-radius: 50%;
 }
 footer .contacts a:hover {
     text-decoration: underline;
