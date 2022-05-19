@@ -8,6 +8,9 @@
     align-items: center;
     position: relative;
     margin: 9% auto;
+    box-shadow: 0px 0px 10px 2px grey;
+    border-radius: 13px;
+    background-color:white;
   }
   
   .avatar{
