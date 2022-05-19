@@ -16,17 +16,18 @@
     border-radius: 30px;
     border: 3px solid aqua;
     box-shadow: 2px aqua;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .containerOne>.userProfile>.title>h1{
     text-align: center;
-    margin-top: -50px;
+    margin-top: -90px;
     color: aqua;
+    text-decoration: underline;
 }
 
 .formInput{
-    margin-top: 15px;
+    margin-top: 40px;
 }
 
 .logOut{
@@ -83,7 +84,7 @@
     height: 300px;
     width: 900px;
     overflow: scroll;
-    margin-top: -500px;
+    margin-top: -600px;
     cursor: pointer;
 }
 
@@ -106,6 +107,12 @@
     border: 3px solid aqua;
 }
 
+.doctors .doc-box .box img{
+    box-shadow: var(--box-shadow);
+    border: 3px solid aqua;
+    border-radius: 10px;
+}
+
 .doctors .doc-images{
     display: flex;
     gap: 2rem;
@@ -118,6 +125,12 @@
     box-shadow: var(--box-shadow);
     padding: 2rem;
     border: 3px solid aqua;
+}
+
+.doctors .doc-images .box img{
+    box-shadow: var(--box-shadow);
+    border: 3px solid aqua;
+    border-radius: 10px;
 }
 
 .equipmentContainer{
@@ -136,6 +149,13 @@
     box-shadow: var(--box-shadow);
     padding: 2rem;
     border: 3px solid aqua;
+    margin-top: 30px;
+}
+
+.equipmentContainer .equipment-box img{
+    box-shadow: var(--box-shadow);
+    border: 3px solid aqua;
+    border-radius: 10px;
 }
 
 .equipmentContainer{
