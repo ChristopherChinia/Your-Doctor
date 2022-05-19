@@ -1,0 +1,308 @@
+body{
+    background-image: url(/Assets/images/6.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* Navigation section */
+.Navigation{
+    justify-content: center;
+    box-shadow: 5px 0px 25px gray;
+
+}
+
+.Navigation>.head{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.Navigation>.head>.user{
+    margin: 20px;
+}
+
+.Navigation>.head>.user>i{
+    border: 1px solid grey;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 5px 0px 15px grey;
+}
+
+.Navigation>.head>.user>.name{
+    font-size: 24px;
+}
+
+.Navigation>.head>.user>span{
+    font-size: 24px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 5px;
+    box-shadow: 5px 0px 10px grey;
+}
+
+.Navigation>.head>#header{
+    margin-left: 35%;
+    font-weight: bold;
+    font-size: 30px;
+    color: darkblue;
+    text-decoration: underline;
+    margin-top: 0px;
+}
+
+/* Body section */
+.body{
+    opacity: 1;
+    margin-left: 15px;
+    display: flex;
+}
+
+/* Buttons section */
+.body>.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.body>.buttons>.cons{
+margin: 20px 0px 30px 20px;
+padding: 10%;
+border-radius: 20px;
+border: 1px solid grey;
+font-size: 20px;
+font-weight: 600;
+cursor: pointer;
+background-color: grey;
+color: white;
+
+}
+
+.body>.buttons>.cons:hover{
+    background-color: cyan;
+    color: black;
+}
+
+.body>.buttons>.due{
+    margin: 20px 0px 30px 20px;
+    padding: 10%;
+    border-radius: 20px;
+    border: 1px solid grey;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+}
+.body>.buttons>.due:hover{
+    background-color: cyan;
+    color: black;
+}
+
+.body>.buttons>.notes{
+margin: 20px 0px 30px 20px;
+font-size: 20px;
+font-weight: 600;
+height: 70%;
+padding: 20%;
+border-radius: 20px;
+border: 1px solid grey;
+cursor: pointer;
+background-color: grey;
+color: white;
+}
+
+.body>.buttons>.notes:hover{
+    background-color: cyan;
+    color: black; 
+}
+
+/* Doctor division container */
+
+.body>.doctors{
+    margin-left: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px grey; 
+
+}
+
+.body>.doctors>h2{
+    text-decoration: underline;
+    color: cyan;
+}
+
+/* Images under */
+.body>.doctors>.images{
+    margin: 20px 20px 20px 20px;
+    height: 400px;
+    overflow: scroll;
+}
+
+.body>.doctors>.images>.doc{
+justify-content: space-between;
+ padding: 20px; 
+min-width: 100%;
+display: flex;
+margin-top: 0px;
+}
+
+.doctors>.images>.doc>.one{
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-top: 0px;
+    box-shadow: 5px 5px 5px grey;
+
+}
+
+
+.doctors>.images>.doc>.one>#one{
+    padding: 10px 50px ;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px grey;
+    height: 250px;
+
+}
+.doctors>.images>.doc>.one>h3{
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.doctors>.images>.doc>.one>.details>a>span{
+    border: 1px solid cyan;
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.doctors>.images>.doc>.one>.details>a>span:hover{
+    background-color: cyan;
+    color: white;
+}
+
+.doctors>.images>.doc>.one>.icons{
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.doctors>.images>.doc>.one>.icons>i{
+    margin: 0px 15px;
+    border-radius: 5px;
+
+}
+/* div patient */
+.body>.doctors>.images>.patient{
+justify-content: space-between;
+ padding: 20px; 
+min-width: 100%;
+display: flex;
+margin-top: 0px;
+border-radius: 15px;
+box-shadow: 5px 5px 5px grey;
+}
+
+.doctors>.images>.patient>.one{
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+
+.doctors>.images>.patient>.one>#one{
+    padding: 10px 50px ;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px grey;
+
+}
+
+.doctors>.images>.patient>.one>h3{
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.doctors>.images>.patient>.one>.details>a>span{
+    border: 1px solid cyan;
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.doctors>.images>.patient>.one>.details>a>span:hover{
+    background-color: cyan;
+    color: white;
+}
+
+.doctors>.images>.patient>.one>.icons{
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.doctors>.images>.patient>.one>.icons>i{
+    margin: 0px 15px;
+    border-radius: 5px;
+
+}
+
+
+/* special div */
+.body>.doctors>.special{
+display: flex; 
+width: 600px; 
+overflow: scroll; 
+border-radius: 15px;
+box-shadow: 5px 5px 5px grey;
+    
+}
+
+.doctors>.special>.one{
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+
+.doctors>.special>.one>#one{
+    padding: 10px 50px ;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.doctors>.special>.one>#call{
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+
+}
+
+.doctors>.special>.one>#call:hover{
+    background-color: lightblue;
+    color: cyan;
+}
+
+.doctors>.special>.one>.icons{
+    box-shadow: 5px 5px 5px grey;
+}
+
+.doctors>.special>.one>.icons>i{
+    padding: 20px;
+}
+
+.doctors>.special>.one>p>.radio{
+    text-decoration: none;
+    
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Assets/css/doctor-page.css">
+    <title>Doctor-page</title>
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="Navigation">
+        <div class="head">
+            <div class="user">
+                <i class="fa fa-user-o" aria-hidden="true"></i>
+                <h3 class="name">Dr. Troy Michael</h3>
+                <span><i class="fa fa-phone" aria-hidden="true"></i> Online</span>
+            </div>
+            <h1 id="header">Your Doctor</h1>
+        </div>
+    </nav>
+    <hr>
+    <!-- BODY -->
+    <div class="body">
+        <!-- Buttons section -->
+        <div class="buttons">
+            <button class="cons" onclick="con()">CONSTULTATION</button>
+            <button class="due" onclick="cal()">DUE APPOINTMENT</button>
+            <button class="notes" onclick="note()">NOTES</button>
+        </div>
+        <hr>
+        <div class="doctors">
+            <h2>Patients in-line:</h2>
+            <div class="images">
+                <div class="doc">
+                    <div class="one">
+                        <img id="one" src="Assets/images/male.jpeg" alt="Doctor" height="50" width="100">
+                        <h3>Kim Michaels</h3>
+                        <p class="details">AGE:24Y 3M <br>Haemophilia <br><a href="https://en.wikipedia.org/wiki/Haemophilia"> <span>READ MORE</span></a></p>
+                        <div class="icons">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="one">
+                        <img id="one" src="Assets/images/female.jpeg" alt="Doctor" height="100" width="100">
+                        <h3>Angela Julia</h3>
+                        <p class="details">AGE:20Y 3M <br>Cholera <br><a href="https://www.who.int/news-room/fact-sheets/detail/cholera"> <span>READ MORE</span></a></p>
+                        <div class="icons">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="one">
+                        <img id="one" src="Assets/images/male2.png" alt="Doctor" height="100" width="100">
+                        <h3>Martin Jonson</h3>
+                        <p class="details">AGE:40Y 9M <br>Malaria <br><a href="https://en.wikipedia.org/wiki/Malaria"> <span>READ MORE</span></a></p>
+                        <div class="icons">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="one">
+                        <img id="one" src="Assets/images/female2.jpg" alt="Doctor" height="100" width="100">
+                        <h3>Kimberly Ray</h3>
+                        <p class="details">AGE:14Y 3M <br>Pneumonia <br><a href="https://www.mayoclinic.org/diseases-conditions/pneumonia/symptoms-causes/syc-20354204"> <span>READ MORE</span></a></p>
+                        <div class="icons">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Patient division -->
+                <div class="patient">
+                    <div class="one">
+                        <img id="one" src="Assets/images/female2.jpg" alt="Doctor" height="100">
+                        <h3>Vee Dee</h3>
+                        <p class="details">AGE:20Y 3M <br>Malaria <br><a href="https://en.wikipedia.org/wiki/Malaria"> <span>READ MORE</span></a></p>
+                        <div class="icons">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="one">
+                        <img id="one" src="Assets/images/female3.jpeg" alt="Doctor" height="100">
+                        <h3>Sara Jekins</h3>
+                        <p class="details">AGE:29Y 0M <br>Haemophilia <br><a href="https://en.wikipedia.org/wiki/Haemophilia"> <span>READ MORE</span></a></p>
+                        <div class="icons">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="one">
+                        <img id="one" src="Assets/images/female4.png" alt="Doctor" height="100">
+                        <h3>Paula Tasha</h3>
+                        <p class="details">AGE:36Y 3M <br>Cholera <br><a href="https://www.who.int/news-room/fact-sheets/detail/cholera"> <span>READ MORE</span></a></p>
+                        <div class="icons">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="one">
+                        <img id="one" src="Assets/images/male3.jpg" alt="Doctor" height="100">
+                        <h3>John Michaels</h3>
+                        <p class="details">AGE:24Y 3M <br>Malaria <br><a href="https://en.wikipedia.org/wiki/Malaria"> <span>READ MORE</span></a></p>
+                        <div class="icons">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                  </div>
+                </div>
+                <h2>Doctors Available</h2>
+                <!-- Div special -->
+                <div class="special">
+                    <div class="one">
+                        <img id="one" src="Assets/images/pexels-antoni-shkraba-5215024.jpg" alt="Doctor" height="250">
+                        <hr>
+                        <h3>Dr.Mary Jane <br> Pathologist</h3>
+
+                        <button id="call" onclick="call()">CALL <i class="fa fa-phone" aria-hidden="true"></i></button>
+                        <div class="icons">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="one">
+                        <img id="one" src="Assets/images/african-american-black-doctor-man-over-blue-background-89747885.jpg" alt="Doctor" height="250">
+                        <hr>
+                        <h3>Dr.Samuel Brian <br> Phamerscist</h3>
+                        <button id="call" onclick="call()">CALL <i class="fa fa-phone" aria-hidden="true"></i></button>
+                        <div class="icons">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="one">
+                        <img id="one" src="Assets/images/group-african-medical-doctors-portrait-30058303.jpg" alt="Doctor" height="250">
+                        <hr>
+                        <h3>Dr.Tara Talia <br> Dermatologist</h3>
+                        <button id="call" onclick="call()">CALL <i class="fa fa-phone" aria-hidden="true"></i></button>
+                        <div class="icons">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="one">
+                        <img id="one" src="Assets/images/pexels-ivan-samkov-4989163 (1).jpg" alt="Doctor" height="250">
+                        <hr>
+                        <h3>Dr.Troy Kim <br> Dentist</h3>
+                        <button id="call" onclick="call()">CALL <i class="fa fa-phone" aria-hidden="true"></i></button>
+                        <div class="icons">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="one">
+                        <img id="one" src="Assets/images/pexels-cottonbro-7578803.jpg" alt="Doctor" height="250">
+                        <hr>
+                        <h3>Dr.Kimberly Sara <br> Therapist</h3>
+                        <button id="call" onclick="call()">CALL <i class="fa fa-phone" aria-hidden="true"></i></button>
+                        <div class="icons">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="one">
+                        <img id="one" src="Assets/images/pexels-los-muertos-crew-8460157.jpg" alt="Doctor" height="250">
+                        <hr>
+                        <h3>Dr.John John <br> Gynaecologist</h3>
+                
+                        <button id="call" onclick="call()">CALL <i class="fa fa-phone" aria-hidden="true"></i></button>
+                        <div class="icons">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                 
+                 </div>
+             
+             </div> 
+          </div>
+          <script src="./Assets/JS/doctor-page.js"></script>
+</body>
+</html>
