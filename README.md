@@ -1,6 +1,9 @@
-# JavaScript Quiz Board
+# Your-Doctor
 
 ## By Christopher Chinia
+## By Newton Mboi
+## By Peter Mutoi
+## By James Oudwori
 
 
 ## Table of Content
@@ -15,7 +18,7 @@
 
  ## Description
 
-This is website that has been developed to test students that have finished their Javascript module before they move into the next stage. The website is user-friendly and easy to navigate around.After loading the URL link of the website, the student will be able to see the first page with a start button which will redirect you to the instructions and question page.You will answer and submit before proceeding to the next question. A student is only be allowed to select one answer.The website is designed to give the scores after all questions have been attempted.
+The website is a user-friendly platform that enables patient and doctors to interact providing an efficient,private and effective environment for both users. It also has on-line calls and booking section for patients and also enables doctors to interact with other doctors.
 
 * To see the design visit:https://www.figma.com/file/dBHccr1ikTNzvddq3NRCmT/My-Doctor-Landing_page?node-id=14%3A171
 
@@ -24,6 +27,10 @@ This is website that has been developed to test students that have finished thei
 
 ## Features
 As a user of this site,you will be able to:
+1.Patient to make video calls
+2.patients to make payments online.
+3.doctors to acquire information about patients.
+4.doctors to interact with other doctors.
 
 
 [Go Back to the top](#Moringa School)
@@ -43,7 +50,7 @@ As a user of this site,you will be able to:
   [Go Back to the top](#Moringa-School)
 ### Live Link
 
- Click this link to view the live application: 
+ Click this link to view the live application:  https://christopherchinia.github.io/Your-Doctor/
 
  ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
