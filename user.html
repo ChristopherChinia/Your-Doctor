@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Doctor</title>
+    <link rel="stylesheet" href="./assets/css/user.css">
+    <script src="https://kit.fontawesome.com/67ccfd17f9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="containerOne">
+
+            <div class="userProfile">
+                <i class="fa-solid fa-user"></i> <br> <br>
+                <div class="title"><h1>Your Doctor</h1></div>
+                <div class="formInput"> 
+                 <form action="">
+                    <input type="text" placeholder="Name"> <br> <br>
+                    <input type="text" placeholder="Phone"> <br> <br>
+                    <input type="text" placeholder="Email"> <br> <br>
+
+                 </form>
+                </div>
+
+                <button class="logOut">Log out</button> <br>
+
+            </div>
+
+            <div class="buton">
+
+                <button class="consult" onclick="consultDoctor()">Consultation</button> <br> <br>
+                <button class="appoint" onclick="appointBook()">Book Appointment</button> <br> <br>
+                <button class="history" onclick="healthHistory ()">Patient Health Records</button> <br> <br>
+                <button class="pay">
+                    
+                       <select>
+                           <option>M-pesa</option>
+                           <option>PayPal</option>
+                           <option>Visa</option>
+                           <option>Mastercard</option>
+                       </select>Payment Options</button> <br> <br>
+
+            </div>
+            <div class="doctors">
+                <h1 class="titleHead"><span>Find Doctors</span></h1>
+                <div class="doc-box">
+                    <div class="box">
+                        <img src="./assets/images/doctor1.jpg" alt=" " width="200px">
+                        <h3>Mary Anne</h3>
+                        <span>Cardiologist</span>
+                        <div class="socialHandle">
+
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="./assets/images/doctor2.jpg" alt=" "width="200px">
+                        <h3>Humberto Chavez</h3>
+                        <span>Dentist</span>
+                        <div class="socialHandle">
+
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="./assets/images/doctor3.jpg" alt=" "width="200px">
+                        <h3>Usman Yousaf</h3>
+                        <span>General Practitioner</span>
+                        <div class="socialHandle">
+                            
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="./assets/images/doctor4.jpeg" alt=" "width="200px">
+                        <h3>Jane Harrison</h3>
+                        <span>Dermatologist</span>
+                        <div class="socialHandle">
+                            
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="doc-images">
+                    <div class="box">
+                        <img src="./assets/images/doctor5.jpg" alt=" " width="200px">
+                        <h3>Johnson Gomez</h3>
+                        <span>Family Nurse Practitioner</span>
+                        <div class="socialHandle">
+                            
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="./assets/images/doctor6.jpeg" alt=" "width="200px">
+                        <h3>Joe Wanjiru</h3>
+                        <span>Psychiatrist</span>
+                        <div class="socialHandle">
+                            
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="./assets/images/doctor7.jpeg" alt=" "width="200px">
+                        <h3>Mark Andrew</h3>
+                        <span>Pediatrician</span>
+                        <div class="socialHandle">
+                            
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="./assets/images/doctor8.jpeg" alt=" "width="200px">
+                        <h3>Peter Erickson</h3>
+                        <span>Neurosurgeon</span>
+                        <div class="socialHandle">
+                            
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <!-- <div class="materials">
+                <img src="./assets/images/mri.jpg" width="80px" height="60px">
+                <img src="./assets/images/mri.jpg" width="80px" height="60px">
+                <img src="./assets/images/mri.jpg" width="80px" height="60px">
+                <img src="./assets/images/mri.jpg" width="80px" height="60px">
+                <img src="./assets/images/mri.jpg" width="80px" height="60px">
+                <img src="./assets/images/mri.jpg" width="80px" height="60px">
+                <img src="./assets/images/mri.jpg" width="80px" height="60px">
+                <img src="./assets/images/mri.jpg" width="80px" height="60px">
+
+            </div> -->
+
+            <div class="equipmentContainer">
+                <div class="equip"><h2 class="header-six"><span>Equipment</span></h2></div>
+                <div class="equipment-box">
+                    <img src="./assets/images/equipment1.jpg" alt=" " width="200px">
+                    <h6>MRI Machine</h6>
+                
+                </div>
+                
+                <div class="equipment-box">
+                    <img src="./assets/images/equipment2.jpg" alt=" " width="200px" height="120px">
+                    <h6>X-ray Machine</h6>
+                
+                </div>
+
+                <div class="equipment-box">
+                    <img src="./assets/images/equipment3.jpg" alt=" " width="200px" height="120px">
+                    <h6>Ultrasound Machine</h6>
+                
+                </div>
+
+                <div class="equipment-box">
+                    <img src="./assets/images/equipment4.jpg" alt=" " width="200px">
+                    <h6>Mammogram Machine</h6>
+                
+                </div>
+
+                <div class="equipment-box">
+                    <img src="./assets/images/equipment5.jpg" alt=" " width="200px">
+                    <h6>Echocardiogram Machine</h6>
+                
+                </div>
+
+                <div class="equipment-box">
+                    <img src="./assets/images/equipment6.jpg" alt=" " width="200px" height="120px">
+                    <h6>Dental Surgery Equipment</h6>
+                
+                </div>
+
+                <div class="equipment-box">
+                    <img src="./assets/images/equipment7.jpeg" alt=" " width="200px" height="120">
+                    <h6>Eye Examination Equipment</h6>
+                
+                </div>
+
+                <div class="equipment-box">
+                    <img src="./assets/images/equipment8.jpg" alt=" " width="200px" height="120px">
+                    <h6>Endoscope</h6>
+                
+                </div>
+            </div>        
+
+        
+
+    </div>
+</body>
+<script src="./assets/health.js"></script>
+</html>
