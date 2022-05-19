@@ -69,11 +69,64 @@ body{
     height: 150;
     width: 150;
 }
-
-
-
-
 /* partners section */
+/* services section */
+.services .s-heading {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5% ;
+}
+.services .s-heading span {
+    font-size: xx-large;
+    background: cyan;
+    border-radius: .5rem;
+    padding: .7rem 1rem;
+}
+.services .serv {
+    display: flex;
+    flex-wrap: wrap;
+}
+.services .serv .offered{
+    overflow: hidden;
+    box-shadow: 3px 3px hsl(0, 0%, 25%);
+    border: .3rem solid hsl(180, 100%, 30%);
+    border-radius: .5rem;
+    flex: 1 1 10rem;
+    height: 20rem;
+    position: relative;
+}
+.services .serv .offered img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.services .serv .offered .servoff {
+    position: absolute;
+    top: -100;
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0, 0, .7);
+    padding: 5px;
+    padding-top: 5rem;
+}
+.services .serv .offered:hover .servoff{
+    top: 0;
+}
+.services .serv .offered:hover .servoff h3{
+    font-size: larger;
+    color: hsl(180, 100%, 50%);
+}
+.services .serv .offered:hover .servoff p{
+    font-size: larger;
+    color: white;
+    padding: 4px;
+}
+
+
+
+
+
+/* services section */
 
 /* footer section */     /*media query
     dispaly: flex
@@ -156,7 +209,6 @@ nav a {
 }
 /* navigation ends */
 
-/* doc profiles */
 
 
 
@@ -165,4 +217,4 @@ nav a {
 
 
 
-/* doc profiles */
+
