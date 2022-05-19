@@ -14,12 +14,15 @@
     <img src="./assets/images/login-avator.jpg" class="avatar" alt="avatar">
 
     <form id= "log-in-form">
+      
       <label for="Username">Username:</label>
       
-      <input type="text" id="uname" placeholder="Username"> <br>
+      <input type="text" id="uname" placeholder="Username" required> <br>
+      <div class="error"></div>
       
       <label for="Password">Password:</label>
-      <input type="text"  id="password" name="Password" placeholder="Password"> <br>
+      <input type="text"  id="password" name="Password" placeholder="Password" required> <br>
+      <div class="error"></div>
 
       <button class="loginbtn" onclick="login()" >Log in</button>
 
