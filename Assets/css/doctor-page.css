@@ -46,9 +46,9 @@ body{
     margin-left: 35%;
     font-weight: bold;
     font-size: 30px;
-    color: hsl(180, 100%, 43%);
-    margin-top: 0px;
+    color: darkblue;
     text-decoration: underline;
+    margin-top: 0px;
 }
 
 /* Body section */
@@ -60,7 +60,6 @@ body{
 
 /* Buttons section */
 .body>.buttons{
-    /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
     width: 20%;
@@ -80,7 +79,7 @@ color: white;
 }
 
 .body>.buttons>.cons:hover{
-    background-color: aqua;
+    background-color: darkblue;
     color: black;
 }
 
@@ -96,7 +95,7 @@ color: white;
     color: white;
 }
 .body>.buttons>.due:hover{
-    background-color: aqua;
+    background-color: darkblue;
     color: black;
 }
 
@@ -114,20 +113,23 @@ color: white;
 }
 
 .body>.buttons>.notes:hover{
-    background-color: aqua;
+    background-color: darkblue;
     color: black; 
 }
 
 /* Doctor division container */
 
 .body>.doctors{
-    /* border: 1px solid red; */
     margin-left: 40px;
     border-radius: 20px;
     cursor: pointer;
-    box-shadow: 5px 5px 5px grey;
-    
+    box-shadow: 5px 5px 5px grey; 
 
+}
+
+.body>.doctors>h2{
+    text-decoration: underline;
+    color: darkblue;
 }
 
 /* Images under */
@@ -151,7 +153,6 @@ margin-top: 0px;
     border-radius: 20px;
     margin-right: 50px;
     margin-top: 0px;
-    /* border: 1px solid yellow; */
     box-shadow: 5px 5px 5px grey;
 
 }
@@ -171,22 +172,22 @@ margin-top: 0px;
 }
 
 .doctors>.images>.doc>.one>.details>a>span{
-    border: 1px solid cyan;
+    border: 1px solid darkblue;
     padding: 3px;
     border-radius: 5px;
     text-decoration: none;
-    /* background-color: grey; */
 }
 
 .doctors>.images>.doc>.one>.details>a>span:hover{
-    background-color: cyan;
+    background-color: darkblue;
+    color: white;
 }
 
 .doctors>.images>.doc>.one>.icons{
     padding: 10px;
     align-items: center;
     justify-content: space-between;
-    /* border: 1px solid red */
+
 }
 
 .doctors>.images>.doc>.one>.icons>i{
@@ -227,22 +228,23 @@ box-shadow: 5px 5px 5px grey;
 }
 
 .doctors>.images>.patient>.one>.details>a>span{
-    border: 1px solid cyan;
+    border: 1px solid darkblue;
     padding: 3px;
     border-radius: 5px;
     text-decoration: none;
-    /* background-color: grey; */
+
 }
 
 .doctors>.images>.patient>.one>.details>a>span:hover{
-    background-color: cyan;
+    background-color: darkblue;
+    color: white;
 }
 
 .doctors>.images>.patient>.one>.icons{
     padding: 10px;
     align-items: center;
     justify-content: space-between;
-    /* border: 1px solid red */
+
 }
 
 .doctors>.images>.patient>.one>.icons>i{
@@ -288,12 +290,11 @@ box-shadow: 5px 5px 5px grey;
 }
 
 .doctors>.special>.one>.call:hover{
-    background-color: lightgreen;
-    color: green;
+    background-color: lightblue;
+    color: darkblue;
 }
 
 .doctors>.special>.one>.icons{
-    border: 1px solid yellow;
     box-shadow: 5px 5px 5px grey;
 }
 
