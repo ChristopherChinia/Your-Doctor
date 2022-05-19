@@ -1,19 +1,14 @@
-var name = document.getElementById('uname');
-var password = document.getElementById('password');
-var form = document.getElementById('form')
-var  errorElement = document.getElementById('error')
+const email = document.getElementById('#email');
+const error = document.getElementById('error-text');
+const btn = document.getElementById(submit);
 
-form.addEventListener('submit', (e)=> {
-  var messages = []
-  if (name.value === '' || name.value === null
-  ){
-    messages.push ("Username is required")
-  }
+let regExp = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
-  if(messages.length > 0){
-    e.preventDefault()
-    errorElement.innerText = messages.join(',')
-  }
+   function check(){
+     if (email.value.match(regExp)){
 
-  
-})
+     }
+     else{
+       alert('Error');
+     }
+   }
