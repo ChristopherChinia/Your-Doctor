@@ -39,10 +39,41 @@ body{
     font-weight: 700;
     color: hsl(0, 0%, 25%);
 }
-
-
-
 /* doc profiles */
+
+
+/* partners section */
+
+.partners .p-heading {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5% ;
+}
+.partners .p-heading span {
+    font-size: xx-large;
+    background: cyan;
+    border-radius: .5rem;
+    padding: .7rem 1rem;
+}
+.partners .p-heading .empty {
+    background: none;
+}
+.partners .p-partners {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 150;
+}
+.partners .p-partners img {
+    border-radius: 50%;
+    height: 150;
+    width: 150;
+}
+
+
+
+
+/* partners section */
 
 /* footer section */     /*media query
     dispaly: flex
