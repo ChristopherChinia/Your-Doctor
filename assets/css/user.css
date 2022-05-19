@@ -49,7 +49,7 @@ body{
 }
 
 .logOut:hover{
-    color: aqua;
+    background-color: blue;
 }
 
 .buton>.consult{
@@ -60,12 +60,20 @@ body{
     margin-top: 50px;
 }
 
+.buton>.consult:hover{
+    background-color: blue;
+}
+
 .buton>.appoint{
     height: 60px;
     width: 180px;
     border-radius: 20px;
     background-color: aqua;
     margin-top: 50px;
+}
+
+.buton>.appoint:hover{
+    background-color: blue;
 }
 
 .buton>.history{
@@ -76,12 +84,20 @@ body{
     margin-top: 50px;
 }
 
+.buton>.history:hover{
+    background-color: blue;
+}
+
 .buton>.pay{
     height: 60px;
     width: 180px;
     border-radius: 20px;
     background-color: aqua;
     margin-top: 50px;
+}
+
+.buton>.pay:hover{
+    background-color: blue;
 }
 
 .doctors{
