@@ -66,7 +66,7 @@ const opt3 = document.querySelector("#option3");
 const opt4 = document.querySelector("#option4");
 const opt5 = document.querySelector("#option5");
 const opt6 = document.querySelector("#option6");
-const call = document.querySelector("#call");
+const call = document.querySelector(".call");
 const answers1 = document.querySelectorAll(".answer")
 const available = document.querySelector("#All doctors are on-call please wait"); 
 const loaddata = () => {
