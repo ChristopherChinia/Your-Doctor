@@ -16,21 +16,22 @@ body{
 .containerOne{
     margin-left: 50px;
     padding: 10px;
+    background: rgba( 0, 0, 0, 0.3);
 }
     
 .containerOne>.userProfile>i{
     margin-left: 50px;
     padding: 15px;
     border-radius: 30px;
-    border: 3px solid aqua;
-    box-shadow: 2px aqua;
+    border: 3px solid cyan;
+    box-shadow: 2px cyan;
     margin-top: 30px;
 }
 
 .containerOne>.userProfile>.title>h1{
     text-align: center;
     margin-top: -90px;
-    color: aqua;
+    color: cyan;
     text-decoration: underline;
 }
 
@@ -45,7 +46,7 @@ body{
     height: 50px;
     width: 150px;
     border-radius: 20px;
-    background-color: aqua;
+    background-color: cyan;
 }
 
 .logOut:hover{
@@ -56,7 +57,7 @@ body{
     height: 60px;
     width: 180px;
     border-radius: 20px;
-    background-color: aqua;
+    background-color: cyan;
     margin-top: 50px;
 }
 
@@ -68,7 +69,7 @@ body{
     height: 60px;
     width: 180px;
     border-radius: 20px;
-    background-color: aqua;
+    background-color: cyan;
     margin-top: 50px;
 }
 
@@ -80,7 +81,7 @@ body{
     height: 60px;
     width: 180px;
     border-radius: 20px;
-    background-color: aqua;
+    background-color: cyan;
     margin-top: 50px;
 }
 
@@ -92,7 +93,7 @@ body{
     height: 60px;
     width: 180px;
     border-radius: 20px;
-    background-color: aqua;
+    background-color: cyan;
     margin-top: 50px;
 }
 
@@ -101,7 +102,7 @@ body{
 }
 
 .doctors{
-    border: 3px solid aqua;
+    border: 3px solid cyan;
     border-radius: 10px;
     margin-left: 400px;
     padding: 5px;
@@ -128,13 +129,17 @@ body{
     border: var(--border);
     box-shadow: var(--box-shadow);
     padding: 2rem;
-    border: 3px solid aqua;
+    border: 3px solid cyan;
 }
 
 .doctors .doc-box .box img{
     box-shadow: var(--box-shadow);
-    border: 3px solid aqua;
+    border: 3px solid cyan;
     border-radius: 10px;
+}
+
+.doctors .doc-box .box .socialHandle i:hover{
+    background-color: blue;
 }
 
 .doctors .doc-images{
@@ -148,12 +153,16 @@ body{
     border: var(--border);
     box-shadow: var(--box-shadow);
     padding: 2rem;
-    border: 3px solid aqua;
+    border: 3px solid cyan;
+}
+
+.doctors .doc-images .box .socialHandle i:hover{
+    background-color: blue;
 }
 
 .doctors .doc-images .box img{
     box-shadow: var(--box-shadow);
-    border: 3px solid aqua;
+    border: 3px solid cyan;
     border-radius: 10px;
 }
 
@@ -172,18 +181,18 @@ body{
     border: var(--border);
     box-shadow: var(--box-shadow);
     padding: 2rem;
-    border: 3px solid aqua;
+    border: 3px solid cyan;
     margin-top: 30px;
 }
 
 .equipmentContainer .equipment-box img{
     box-shadow: var(--box-shadow);
-    border: 3px solid aqua;
+    border: 3px solid cyan;
     border-radius: 10px;
 }
 
 .equipmentContainer{
-    border: 3px solid aqua;
+    border: 3px solid cyan;
     border-radius: 10px;
     padding: 5px;
     height: 250px;
