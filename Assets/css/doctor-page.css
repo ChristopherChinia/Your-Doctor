@@ -79,7 +79,7 @@ color: white;
 }
 
 .body>.buttons>.cons:hover{
-    background-color: darkblue;
+    background-color: cyan;
     color: black;
 }
 
@@ -95,7 +95,7 @@ color: white;
     color: white;
 }
 .body>.buttons>.due:hover{
-    background-color: darkblue;
+    background-color: cyan;
     color: black;
 }
 
@@ -113,7 +113,7 @@ color: white;
 }
 
 .body>.buttons>.notes:hover{
-    background-color: darkblue;
+    background-color: cyan;
     color: black; 
 }
 
@@ -129,7 +129,7 @@ color: white;
 
 .body>.doctors>h2{
     text-decoration: underline;
-    color: darkblue;
+    color: cyan;
 }
 
 /* Images under */
@@ -172,14 +172,14 @@ margin-top: 0px;
 }
 
 .doctors>.images>.doc>.one>.details>a>span{
-    border: 1px solid darkblue;
+    border: 1px solid cyan;
     padding: 3px;
     border-radius: 5px;
     text-decoration: none;
 }
 
 .doctors>.images>.doc>.one>.details>a>span:hover{
-    background-color: darkblue;
+    background-color: cyan;
     color: white;
 }
 
@@ -228,7 +228,7 @@ box-shadow: 5px 5px 5px grey;
 }
 
 .doctors>.images>.patient>.one>.details>a>span{
-    border: 1px solid darkblue;
+    border: 1px solid cyan;
     padding: 3px;
     border-radius: 5px;
     text-decoration: none;
@@ -236,7 +236,7 @@ box-shadow: 5px 5px 5px grey;
 }
 
 .doctors>.images>.patient>.one>.details>a>span:hover{
-    background-color: darkblue;
+    background-color: cyan;
     color: white;
 }
 
@@ -278,7 +278,7 @@ box-shadow: 5px 5px 5px grey;
     box-shadow: 5px 5px 5px grey;
 }
 
-.doctors>.special>.one>.call{
+.doctors>.special>.one>#call{
     border: 1px solid grey;
     text-align: center;
     border-radius: 20px;
@@ -289,9 +289,9 @@ box-shadow: 5px 5px 5px grey;
 
 }
 
-.doctors>.special>.one>.call:hover{
+.doctors>.special>.one>#call:hover{
     background-color: lightblue;
-    color: darkblue;
+    color: cyan;
 }
 
 .doctors>.special>.one>.icons{
