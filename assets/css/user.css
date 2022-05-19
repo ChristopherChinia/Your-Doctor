@@ -14,8 +14,8 @@
     margin-left: 50px;
     padding: 15px;
     border-radius: 30px;
-    border: 1px solid grey;
-    box-shadow: 2px grey;
+    border: 3px solid aqua;
+    box-shadow: 2px aqua;
     margin-top: 50px;
 }
 
@@ -36,18 +36,18 @@
     height: 50px;
     width: 150px;
     border-radius: 20px;
-    background-color: #E1F4FF;
+    background-color: aqua;
 }
 
 .logOut:hover{
-    color: blue;
+    color: aqua;
 }
 
 .buton>.consult{
     height: 60px;
     width: 180px;
     border-radius: 20px;
-    background-color: #E1F4FF;
+    background-color: aqua;
     margin-top: 50px;
 }
 
@@ -55,7 +55,7 @@
     height: 60px;
     width: 180px;
     border-radius: 20px;
-    background-color: #E1F4FF;
+    background-color: aqua;
     margin-top: 50px;
 }
 
@@ -63,7 +63,7 @@
     height: 60px;
     width: 180px;
     border-radius: 20px;
-    background-color: #E1F4FF;
+    background-color: aqua;
     margin-top: 50px;
 }
 
@@ -71,12 +71,12 @@
     height: 60px;
     width: 180px;
     border-radius: 20px;
-    background-color: #E1F4FF;
+    background-color: aqua;
     margin-top: 50px;
 }
 
 .doctors{
-    border: 1px solid grey;
+    border: 3px solid aqua;
     border-radius: 10px;
     margin-left: 400px;
     padding: 5px;
@@ -103,7 +103,7 @@
     border: var(--border);
     box-shadow: var(--box-shadow);
     padding: 2rem;
-    border: 1px solid grey;
+    border: 3px solid aqua;
 }
 
 .doctors .doc-images{
@@ -117,7 +117,7 @@
     border: var(--border);
     box-shadow: var(--box-shadow);
     padding: 2rem;
-    border: 1px solid grey;
+    border: 3px solid aqua;
 }
 
 .equipmentContainer{
@@ -135,11 +135,11 @@
     border: var(--border);
     box-shadow: var(--box-shadow);
     padding: 2rem;
-    border: 1px solid grey;
+    border: 3px solid aqua;
 }
 
 .equipmentContainer{
-    border: 1px solid grey;
+    border: 3px solid aqua;
     border-radius: 10px;
     padding: 5px;
     height: 250px;
