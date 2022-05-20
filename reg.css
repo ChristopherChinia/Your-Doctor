@@ -32,7 +32,7 @@
   
   
   .loginbtn{ 
-    background-color : #405cf5;
+    background-color : cyan;
     border-radius: 6px;
     border-width: 0;
     color: #fff;
@@ -49,7 +49,7 @@
   }
   
   .registerbtn{
-    background-color : #405cf5;
+    background-color : cyan;
     border-radius: 6px 6px 6px 6px;
     border-width: 0;
     color: #fff;
@@ -68,14 +68,14 @@
     display: none;
   }
   
-  .error-text{
+  .error-{
     margin:15px 0 5px 0 ;
     background: #e74c3c;
     padding: 8px;
     display: none;
   }
   
-  .error-text :before{
+  .error:before{
     position: absolute;
     right: 20px;
   }
