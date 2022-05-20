@@ -21,7 +21,7 @@
   margin-left: 4em;
 }
 
-input[type=text]{
+input{
   border: none;
   border-bottom: 1px solid rgba(0,0,0, 0.6);
   padding: 15px 20px;
@@ -30,7 +30,8 @@ input[type=text]{
 }
 
 .loginbtn{ 
-  background-color : #405cf5;
+  background-color : cyan;
+  font-weight: 800;
   border-radius: 6px;
   border-width: 0;
   color: #fff;
@@ -47,7 +48,8 @@ a{
 }
 
 .registerbtn{
-  background-color : #405cf5;
+  background-color : cyan;
+  font-weight: 800;
   border-radius: 6px 6px 6px 6px;
   border-width: 0;
   color: #fff;

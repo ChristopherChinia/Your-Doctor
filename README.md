@@ -3,7 +3,7 @@
 ## By Christopher Chinia
 ## By Newton Mboi
 ## By Peter Mutoi
-## By James Oudwori
+## By James Odiwuor
 
 
 ## Table of Content
@@ -85,6 +85,6 @@ Email - [Newton Mboi]
 (newtieblackie@gmail.com)
 Email - [Peter Mutoi]
 (pngando9@gmail.com)
-Email - [James Oudwori]
+Email - [James Odiwuor]
 (James.Oudwori@student.moringaschool.com)
 [Go Back to the Top](#moringa-school)
