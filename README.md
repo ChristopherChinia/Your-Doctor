@@ -3,7 +3,7 @@
 ## By Christopher Chinia
 ## By Newton Mboi
 ## By Peter Mutoi
-## By James Oudwori
+## By James Odiwuor
 
 
 ## Table of Content
